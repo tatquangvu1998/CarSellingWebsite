@@ -1,0 +1,82 @@
+
+a{
+    color: black;
+    
+}
+a:hover{
+    color: black;
+    text-decoration: none !important;
+}
+.heading-news p{
+    font-size: 50px;
+}
+.Khung-TTC-mau-do {
+    width: 100%;
+    border-bottom: 2px solid red;
+    margin-bottom: 50px;
+}
+
+.Khung-TTC-mau-do p{
+    background-color: red;
+    width: 150px;
+    padding: 10px 10px;
+    text-align: center;
+}
+.card-img-top{
+    height: 150px;
+    width: 100%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.my-card{
+    width: calc(100vw/4);
+    padding: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+/* new-1 css  */
+.main{
+    display: flex;
+}
+.heading-news-1{
+    text-align: right;
+    background: black;
+}
+.heading-news-1 p{
+    color: white;
+    font-size: 50px;
+}
+.article-wrapper{
+    width: 70vw;
+}
+.aside-article{
+    width: 30vw;
+    margin-top: 50px;
+    padding: 10px;
+}
+.article-header{
+    border-bottom: 2px solid black;
+}
+.article-date{
+    margin: 50px 0px;
+}
+.article-content{
+    padding: 10px;
+}
+
+.aside-header{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin: 20px 0px;
+}
