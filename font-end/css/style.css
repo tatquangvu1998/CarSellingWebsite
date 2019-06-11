@@ -1,0 +1,1131 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+li{
+    list-style-type: none;
+}
+
+#website{
+    width:100%;
+    margin:auto;
+    background:#F3F3F3;
+}
+
+.clr{
+    clear:both;
+}
+
+.owl-carousel .owl-nav{
+    width: 100%;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    font-size: 7em;
+}
+
+.owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1em;
+    top: 0;
+    opacity: 0;
+    max-height: 0px;
+}
+
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 1em;
+    top: 0;
+    opacity: 0;
+    max-height: 0px;
+}
+
+.owl-carousel:hover .owl-prev{
+    opacity: 1;
+}
+
+.owl-carousel:hover .owl-next{
+    opacity: 1;
+}
+
+/*bắt đầu*/
+/*phần header*/
+#header ul li a:hover{
+    border-bottom: 4px solid red;
+}
+
+#header ul.dropdown-menu li a:hover{
+    border-bottom: none;
+    background-color: lightgray;
+}
+
+#header ul.navbar-right li a{
+    margin-top: -20px;
+    border: none;
+}
+
+/*phần banner*/
+#ads{
+    width:100%;
+    margin: 60px auto;
+}
+
+#ads-left{
+    width:66%;
+    float:left;
+    display: inline-block;
+}
+
+#ads-right{
+    width:34%;
+    float:left;
+}
+
+#addition{    
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#addition .col-sm-4{
+    background: white;
+}
+
+#addition .col-sm-4 a{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#addition .item_icon{
+    height: 100%;
+    position:relative;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+#addition .item_text{
+    height:100%;
+    display:inline-block;
+    font-size:20px;
+    font-weight:bold;
+    padding-left:10px;
+    text-transform:uppercase;
+    cursor:pointer;
+}
+
+#addition .item_text a{
+    color:black;
+}
+
+#addition .item_text a:hover {
+    color: red;
+}
+
+#car-styles{
+    margin: 20px auto;
+    background-color: #F3F3F3;
+}
+
+.containers{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.heading2{
+    border-bottom:2px solid red;
+    margin: 0 auto;
+    padding: 10px 0 0 20px;
+    font-size:30px;
+    font-weight: bold;
+}
+
+#car-styles .styles-content{
+    padding: 20px 0 0 0;
+}
+
+#list-cars .owl-carousel .owl-nav{
+    top: 30%;
+}
+
+.list-car-category{
+    margin-bottom:10px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-car-category .item{
+    margin: 0 10px 0 0;
+    padding-bottom:5px;
+    display: inline-block;
+    cursor:pointer;
+}
+
+.list-car-category .active {
+    color:red;
+}
+
+#list-cars{
+    margin-top:20px;
+}
+
+.list-car-information a{
+    color: black;
+    text-decoration: none;
+}
+
+.list-car-information a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.list-car-information .item{
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.list-car-information .item-img{
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+.list-car-information .item-txt > *{
+    margin: 10px 0 10px 10px;
+}
+
+.list-car-information .item-txt-1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.list-car-information .item-txt-2{
+    font-size: 18px;
+    color:dimgray;
+}
+
+.list-car-information .item-txt-3{
+    font-size: 16px;
+}
+
+#contact{
+    margin: 20px auto;
+    background-color: #F3F3F3;
+}
+
+#contact .contact-inner{
+    width: 40%;
+    margin-top: 10px;
+}
+
+#contact input[type=text]{
+    width: 100%;
+    box-sizing:border-box;
+    margin: 5px 0;
+    font-size: 16px;
+    height: 40px;
+    padding-right: 4px;
+    padding-left: 10px;
+}
+
+#contact input[type=email]{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0;
+    font-size: 16px;
+    height: 40px;
+    padding-right: 4px;
+    padding-left: 10px;
+}
+
+#contact textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0;
+    font-size: 16px;
+    height: 100px;
+    padding: 4px 4px 4px 10px;
+}
+
+#contact .btn-send{
+     width: 20%;
+     padding: 4px;
+     text-decoration: none;
+     text-align: center;
+     background-color: red;
+     color: white;
+     font-size: 16px;
+}
+
+#footer{
+    background-color: black;
+    color: #F3F3F3;
+}
+
+#footer .social-network a:hover{
+    opacity: 0.75;
+}
+
+/*css trang New Car*/
+#new-car-banner{
+    width: 100%;
+    margin: auto;
+}
+
+#new-car-banner .img{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+#new-car-banner .img img{
+    max-width: 100%;
+    position: relative;
+}
+
+#new-car-banner-s{
+    width: 100%;
+    margin: auto;
+}
+
+#new-car-banner-s .img{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    overflow: hidden;
+}
+
+#new-car-banner-s .img img{
+    max-width: 100%;
+    position: relative;
+}
+
+.page-product{
+    background: #F3F3F3;
+}
+
+.row-product {
+    margin-top: 30px;
+    position: relative;
+}
+
+.menu-product{
+    overflow: hidden;
+    border-radius: 8px;
+    height: 1000px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.item-pr{
+    overflow: hidden;
+}
+
+#content .category {
+    padding: 10px 14px;
+    background-color: white;
+    color: black; 
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    outline: none;
+    position: relative;
+}
+
+#content .category:after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    right: 30px;
+    bottom: -6px;
+    transform: rotate(45deg);
+}
+
+#content .category:hover{
+    background-color: red;
+}
+
+#content .category:hover:after {
+    background-color: red;
+}
+
+
+/*
+#content .btn{
+    display: block;
+    padding: 10px 14px;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+#content .btn::after{
+    content:"";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    right: 30px;
+    bottom: -6px;
+    transform: rotate(45deg);
+}
+*/
+#content .s-menu {
+    overflow: hidden;
+    max-height: 0;
+    background-color: #EDEDED;
+    transition: all 0.3s;
+}
+
+/*
+#content .s-menu a{
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    margin: 4px 0;
+}
+
+#content .item-pr:target .s-menu {
+    max-height: 20em;
+}
+*/
+
+#content input[type=checkbox] + label{
+    display: block;
+}
+
+#content input[type=checkbox] {
+    display: none;
+}
+
+#content input[type=checkbox] + label:before{
+    content:"\2714";
+    border: 2px solid black;
+    border-radius: 0.3em;
+    height: 20px;
+    width: 20px;
+    padding-left: 3px;
+    margin: 6px 20px;
+    display: inline-block;
+    color: transparent;
+}
+
+#content input[type=checkbox] +label:active:before{
+    transform:scale(0);
+}
+
+#content input[type=checkbox]:checked + label:before{
+    background: red;
+    color: white;
+    transition: 0.3s;
+    border: 2px solid red;
+}
+
+/*phần chứa các sản phẩm*/
+.product-information {
+    /*border: 1px solid red;*/
+    width: 100%;
+    margin-top: -0.8em;
+}
+
+#ul-product li a{
+    text-decoration: none;
+}
+
+#ul-product .item-wrapper {
+    width: 30.25%;
+    border: 2px solid transparent;
+    float: left;
+    display: block;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+#ul-product .item-wrapper:hover{
+    border: 2px solid red;
+}
+
+#ul-product .item-wrapper .item-inner{
+    width: 100%;
+    background-color: white;
+    transition: ease-in-out 0.3s;
+    position: relative;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*phần hình + chữ của mỗi khung hình xe*/
+#ul-product .item-wrapper .item-inner .img{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+#ul-product .item-wrapper .item-inner .img img{
+    max-width: 100%;
+}
+
+#ul-product .item-wrapper .item-inner .txt{
+    color: black;
+    background-color: lightgray;
+}
+
+
+#ul-product .item-wrapper .item-inner .txt-1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;  
+    padding-top: 0.25em;
+}
+
+#ul-product .item-wrapper .item-inner .txt-2{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0.5em; 
+    padding-left: 1.5em;
+}
+
+#ul-product .item-wrapper .item-inner .txt-3{
+    font-size: 14px;
+    padding: 0.5em 0.75em;
+}
+
+/*phần pagination*/
+.pagination-product{
+    width: 100%;
+    text-align: center;
+}
+
+.pagination-product .pagination{
+    margin-top: 0.5em;
+    display: inline-block;
+}
+
+.pagination-product .pagination li{
+    cursor: pointer;
+}
+
+.pagination-product .pagination li .active{
+    background-color: red;
+}
+
+
+/*trang new-car-wigoG*/
+.page-product-detail .owl-carousel .owl-nav{
+    margin-top: -1em;
+}
+
+.menu-detail {
+    /*border: 1px solid red;*/
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background-color: #F3F3F3;
+}
+
+.content-table{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.content-table li a{
+    text-decoration: none;
+    display: inline-block;
+    height: auto;
+    border-left: 2px solid white;
+    border-bottom: 3px solid transparent;
+    padding: 0.5em 4em;
+}
+
+.content-table li:hover{
+    border-bottom: 3px solid red;
+    transition: 0.3s;
+}
+
+.menu-detail ul{
+    display: flex;
+}
+
+.content-table .active {
+    /*border-bottom: 2px solid red;*/
+}
+
+.menu-detail .menu-detail-link{   
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    display: flex;
+}
+
+#section_overall .rowS{
+    margin-top: 4em;
+    margin-bottom: 5em;
+    /*border: 1px solid red;*/
+}
+
+#section_overall .col-sm-5{
+    border: 5px dashed;
+    padding-left: 6em;
+}
+
+.heading-dt{
+    color: red;
+    padding-left: 0.5em;
+}
+
+#section_overall .rowS .txt-1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#section_overall .rowS .txt-2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#section_overall .rowS .txt-3{
+    font-size: 14px;
+}
+
+#section_overall .image-dt{
+    text-align: center;
+}
+
+#section_overall .image-dt img{
+    max-width: 75%;
+}
+
+.button-color{
+    text-align: center;
+}
+
+.wigo-color{
+    width: 40px;
+    height: 40px;
+    border: 1px solid transparent;
+    margin-right: 0.5em;
+}
+
+.wigo-color .active{
+    border: 1px solid blue;
+}
+
+.scrollspy-inner {
+    margin-left: 0;
+    margin-right: 0;
+    /*border: 1px solid red;*/
+    margin-top: 4em;
+}
+
+#section_exterior .exterior-inner{
+    position: relative;
+    display: flex;
+    max-width: 100%;
+}
+
+.tops{
+    float:left;
+    width: 50%;
+}
+
+.tops-introduction{
+    display: flex;
+    background-color: #f7f7f7;
+    border: 1px solid red;
+}
+
+.tops-introduction-inner{
+    padding: 2em 1em 0 4em;
+}
+
+.scrollspy-inner .tops-txt-1{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.scrollspy-inner .tops-txt-2{
+    font-size: 16px;
+}
+
+.tops-image{
+    display: flex;
+    background-color: #F3F3F3;
+    border: 1px solid red;
+}
+
+.tops-image-inner{
+    width: 100%;
+}
+
+.tops-image-inner img{
+    max-width: 100%;
+    min-height: 280px;
+}
+
+.bots{
+    margin-top: 6px;
+    margin-bottom: 4em;
+}
+
+.bots .item{
+    border: 1px solid red;
+}
+
+.bots .owl-item .owl-txt{
+    font-size: 2.2em;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 40px;    
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.bots .owl-item:hover .owl-txt{
+    opacity: 1;
+    height: 40px;
+}
+
+#section_furniture .furniture-inner {
+    position: relative;
+    display: flex;
+    max-width: 100%;
+}
+
+#section_furniture .bots .item img{
+    max-height: 280px;
+}
+
+#SUV {
+    display:none;
+}
+
+.function-inner{
+    background-color:#F3F3F3;
+}
+
+.function-detail{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.function-tabs{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid black;
+}
+
+.function-tabs .tabs{
+    float: left;
+    line-height: normal;
+    height: auto;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.function-detail .function-tabs .tabs a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    min-height: 40px;
+    padding: 1em 2em;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.function-tabs .active{
+    background-color: #ff6767 !important;
+    color: white !important;
+}
+
+.tab-contents .item-inner{
+    margin-top: 1em;
+    border: 1px solid red;
+}
+
+.tab-contents .item-inner .img img{
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.tab-contents li a{
+    text-decoration: none;
+    color: black;
+}
+
+.tab-contents .text{
+    padding: 1em 0 1em 1em;
+}
+
+.tab-contents .text .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tab-contents .text .text-content{
+    padding-top: 0.5em;
+}
+
+/*tab đang xài*/
+.tab {
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    background-color: #F3F3F3;
+    margin-top: 1em;
+    max-width: 100%;
+}
+
+.tab button{
+    cursor: pointer;
+    /*border: 1px solid blue;*/
+    padding: 1em 3em;
+    float: left;
+    transition: 0.3s;
+    margin-right: 0.5em;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#section_specification .tab{
+    display: flex;
+}
+
+#section_specification .tab button{
+    flex-grow: 1;
+}
+
+.tab .active{
+    background-color: #ff6767 !important;
+    color: white !important;
+}
+
+.tab button:hover{
+    background-color: #ee9494;
+}
+
+.tab-content{
+    margin-top: 1em;
+}
+
+.tab-content .item{
+    border: 1px solid red;
+    margin-top: 1em;
+}
+
+.tab-content .text{
+    padding: 1em 0 1em 1em;
+    color: black;
+    background-color: #F3F3F3;
+}
+
+.tab-content .text .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tab-content .text .text-content{
+    padding-top: 0.5em;
+}
+
+.tab-content-2{
+    border-top: 1px solid black;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+table tr td {
+    border: 1px solid black;
+}
+
+table .type-2{
+    background-color: #F3F3F3;
+}
+
+/*trang dịch vụ*/
+#service-banner{
+    width: 100%;
+    margin: auto;
+}
+
+#service-banner .service-banner-image{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#service-banner .service-banner-image img{
+    max-width: 100%;
+    position: relative;
+}
+
+#service-content .menu{
+    display: inline-block;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+#service-content .menu-inner{
+    display: flex;
+}
+
+#service-content .menu-inner li{
+    text-align: center;
+    flex-grow: 1;
+    margin-bottom: -0.6em;
+    border-bottom: 3px solid transparent;
+}
+
+#service-content .menu-inner li a{
+    display: inline-block;
+    border-left: 1px solid white;  
+    border-right: 1px solid white;  
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+    text-decoration: none;   
+}
+
+#service-content .menu-inner li:hover{
+    border-bottom: 3px solid red;
+}
+
+#service-content .menu-inner .inner-text{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    color: black;
+}
+
+.content-section{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    overflow: inherit;
+    position: relative;
+}
+
+.tab-content-s{
+    border: 1px solid;
+}
+
+/*tab trang service*/
+#service-content .tab{
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    background-color: #F3F3F3;
+    margin-top: 1em;
+    width: 100%;
+}
+
+#service-content .tab button{
+    cursor: pointer;
+    /*border: 1px solid yellow;*/
+    width: 100%;
+    float: left;
+    transition: 0.3s;
+    margin-right: 0.5em;
+    background-color: white;
+    font-size: 14px;
+    position: relative;
+}
+
+#service-content .tab button:after{
+    content: "\2714";
+    position: absolute;
+    right: 0.6em;
+    top: 0.1em;
+    color: blue;
+    font-size: 2em;
+    opacity: 0;
+}
+
+#service-content .tab .active:after{
+    background-color: #ff6767;
+    color: white;
+    opacity: 1;
+}
+
+#service-content .tab button:hover{
+    background-color: #ee9494;
+}
+
+#service-content .tab-service-inner{
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.tab-content-s .inner-content{
+    font-size: 14px;
+}
+
+#service-content .input{
+    background-color: #F3F3F3;
+    outline-color: blue;
+    text-indent: 0.5em;
+    height: 2em;
+    width: 80%;
+}
+
+#service-content .btn-check {
+    width: 40%;
+    padding: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    margin-top: 0.7em;
+}
+
+.page-service .row{
+    margin-left: 0;
+}
+
+/*trang drive test*/
+#wrapper-drive-test .navbar{
+    margin-bottom: 0;
+}
+
+.page-testDrive{
+    /*border: 1px solid red;*/
+}
+
+.testDrive_tabs{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.tabs-list .tabs{
+    display: flex;
+}
+
+.tabs-list .tab{
+    border: 1px solid;
+    margin-right: 1em;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    min-width: 8em;
+    width: 100%;
+}
+
+.tabs-list .tab-step{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tabs-list .tab-content{
+    display: block;
+}
+
+#testDriveMain .tab-inner{
+    margin-bottom: 1em;
+}
+
+#testDriveMain .heading2{
+    position: relative;
+}
+
+#testDriveMain .heading2 .nextBtn{
+    position: absolute; 
+    right: 0; 
+    top: 1em;
+    width: 8em;
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+.list-cate ul .item{
+    float: left;
+    min-height: 100px;
+    width: 20%;
+}
+
+.list-cate ul .item img{
+    text-align: center;
+    width: 100%;
+}
+
+.list-cate ul .item .item-inner .checkbox input[type=checkbox]+label{
+    display: block;
+}
+
+.list-cate ul .item .item-inner .checkbox input[type=checkbox]{
+    display: none;
+}
+
+.list-cate ul .item .item-inner .checkbox input[type=checkbox]+label:before{
+    content:"\2714";
+    border: 1px solid blue;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    margin-right: 0.5em;
+    padding-left: 3px;
+    color: transparent;
+    font-weight: 600;
+}
+
+.list-cate ul .item .item-inner .checkbox input[type=checkbox]:checked +label:before{
+    background: blue;
+    color: white;
+    transition: 0.3s;
+    border: 1px solid blue;
+}
+
+.list-cate ul .item .item-inner .checkbox input[type=checkbox]+label:active:before{
+    transform: scale(0);
+}
+
+.list-cate .word{
+    padding-left: 2em;
+}
+
+#testDrive_tab_03 .form-group{
+    margin-bottom: 0;
+}
+
+#testDrive_tab_03 .test_label{
+    padding-left: 1em;
+    font-weight: bold;
+}
